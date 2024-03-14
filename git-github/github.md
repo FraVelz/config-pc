@@ -40,4 +40,4 @@ Hacer un fork y luego modificar el codigo y mandarle el cambio al usuario.
 # Github Issues
 Mini tareas que se pueden asignar a alguien.
 
-> Author: FraVelz
+> Author: Francisco Vélez | FraVelz

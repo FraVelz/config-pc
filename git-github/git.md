@@ -161,6 +161,8 @@
 ## Merge Conflicts 
 * git log --oneline --all : Muestra todos los commits de todas las ramas.
 
+<hr>
+
 ## Git Ignore
 Archivo desarrollado para ignorar archivos y no subirlos al repositorio.
 
@@ -168,12 +170,16 @@ Archivo desarrollado para ignorar archivos y no subirlos al repositorio.
 
 Si un archivo se subio para ignorarlo hay que eliminarlo.
 
+<hr>
+
 ## Alias
 * git log --oneline --all --graph : Mustra de forma graficada cencilla las ramas.
 
 * git log --oneline --all --graph --pretty=format:"%C(auto)%h%d %s %C(black)%C(bold)%cr" : Ademas agrega hace cuanto se hizo el commit.
 
 * git config --global alias.log-improved "comando" : crea un atajo con "git log-improved" hace lo mismo que "git comando".
+
+<hr>
 
 ## Git Reflog
 
@@ -185,4 +191,4 @@ git checkout [12345] : selecciona el commit eliminado [12345] y luego "git switc
 
 Note: Para salir de los de los ":" dos puntos colocar la "q" y dar enter.
 
-> Author: FraVelz
+> Author: Francisco Vélez | FraVelz
