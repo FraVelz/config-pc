@@ -1,7 +1,5 @@
 # Git
 
-<hr>
-
 ## Areas
 1. **Area de trabajo:** Donde modificamos los archivos.
 
@@ -9,14 +7,10 @@
 
 3. **Repositorio:** Almacena el staging en el servidor.
 
-<hr>
-
 ## Glosario
 * Carpeta y Directorio es lo mismo.
 * system, local, global.
 * git reset --hard => Reescribe el archivo si es nesesario.
-
-<hr>
 
 ## Configuracion Inicial
 * git config --global user.name="FraVelz"
@@ -38,8 +32,6 @@
 \r\n : Windows \
 \n : Linux
 
-<hr>
-
 ## Comandos de Consola
 * Cd: Mover entre directorios/carpetas ("cd carpeta/" "cd ..")
 
@@ -58,8 +50,6 @@
 * pwd: Muestra la ruta actual.
 
 * clear: Limpiar consola.
-
-<hr>
 
 ## 1ros Pasos en Git (add/Commit)
 * (git init): Inicializa git es decir crea una carpeta de confguraciones como carpeta oculta.
@@ -80,8 +70,6 @@
 
 * (git commit -m "mensaje..." -a) : Eliminar archivo con mensaje.
 
-<hr>
-
 ## Restore, Checkout, y mas
 
 * (git restore archivo.txt) : Un archivo eliminado del area de trabajo lo recuperamos gracias al area de preparacion.
@@ -91,8 +79,6 @@
 * (git reset --hard archivo.txt) : Modifica el archivo y coloca la info del ultimo add, y elimina el add actual.
 
 * (git mv nombre1.txt nombre2.txt) : Cambio de nombre 1 a 2
-
-<hr>
 
 ## Git Diff
 
@@ -110,8 +96,6 @@
 
 * (git diff --word-diff [b632b9b] [b632b9b]) : Comparar lineas de dos commits
 
-<hr>
-
 ## Modficar y deshacer Commits
 
 * (git commit --amend) : Modificar mensaje del ultimo commit y agrega los archivos del area de preparacion al staging.
@@ -127,8 +111,6 @@
 * **git reset --mixed head~1** : Deja vacio el Staging, y deja el area de trabajo como estaba.
 
 * **git reset --hard head~1** : Al colocar el putero en un commit solo coloca la informacion que tenian los archivos cuando se hizo ese commit y descarta el area de staging.
-
-<hr>
 
 ## Ramas
 * git branch : Muestra las ramas creadas.
@@ -149,19 +131,13 @@
 
 * git branch -m modify-text : Cambiar el nombre de la rama actual por "modify-text"
 
-<hr>
-
 ## Fusionar Ramas 
 * git merge optimize-func-sum-v1 : Fusiona los commit de las ramas.
 
 * git reset --hard [12345] : Eliminar Fusiona de los commit de las ramas.
 
-<hr>
-
 ## Merge Conflicts 
 * git log --oneline --all : Muestra todos los commits de todas las ramas.
-
-<hr>
 
 ## Git Ignore
 Archivo desarrollado para ignorar archivos y no subirlos al repositorio.
@@ -170,16 +146,12 @@ Archivo desarrollado para ignorar archivos y no subirlos al repositorio.
 
 Si un archivo se subio para ignorarlo hay que eliminarlo.
 
-<hr>
-
 ## Alias
 * git log --oneline --all --graph : Mustra de forma graficada cencilla las ramas.
 
 * git log --oneline --all --graph --pretty=format:"%C(auto)%h%d %s %C(black)%C(bold)%cr" : Ademas agrega hace cuanto se hizo el commit.
 
 * git config --global alias.log-improved "comando" : crea un atajo con "git log-improved" hace lo mismo que "git comando".
-
-<hr>
 
 ## Git Reflog
 
