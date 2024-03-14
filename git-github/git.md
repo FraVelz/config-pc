@@ -166,4 +166,7 @@ git checkout [12345] : selecciona el commit eliminado [12345] y luego "git switc
 
 Note: Para salir de los de los ":" dos puntos colocar la "q" y dar enter.
 
+# Varios comandos en una linea
+git add . && git commit -m "Update"
+
 > Author: Francisco Vélez | FraVelz
