@@ -31,13 +31,13 @@ Control de codigo en la nuve.
 
 * git remote-v : Muestra lo que podemos hacer con el repositorio remoto.
 
-# Forks
+## Forks
 Pasa un repositorio de github a nuestra cuenta de github.
 
-# Pull Request
+## Pull Request
 Hacer un fork y luego modificar el codigo y mandarle el cambio al usuario. 
 
-# Github Issues
+## Github Issues
 Mini tareas que se pueden asignar a alguien.
 
 > Author: Francisco Vélez | FraVelz
