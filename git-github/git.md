@@ -112,6 +112,9 @@
 
 * **git reset --hard head~1** : Al colocar el putero en un commit solo coloca la informacion que tenian los archivos cuando se hizo ese commit y descarta el area de staging.
 
+# Combinar Commits
+git rebase -i HEAD~3 : Hable en VSCode un archivo donde debemos colocar "s" donde esta pick a los commits a combinar y dejar el "pick" al que se le deja como principal.
+
 ## Ramas
 * git branch : Muestra las ramas creadas.
 
